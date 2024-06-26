@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6B51C7432C298E6100DBDDA2 /* zstack_hstack_vstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B51C7422C298E6100DBDDA2 /* zstack_hstack_vstack.swift */; };
 		6B60B2B02BF2452200FF36DA /* textbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60B2AF2BF2452200FF36DA /* textbootcamp.swift */; };
+		6BC942C42C2BDE3E0092CF6F /* paddingbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC942C32C2BDE3E0092CF6F /* paddingbootcamp.swift */; };
+		6BD527A32C2C42BE002D96E6 /* twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD527A22C2C42BE002D96E6 /* twitter.swift */; };
 		6BD630302BDA0B4A00137F7F /* basicswiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6302F2BDA0B4A00137F7F /* basicswiftApp.swift */; };
 		6BD630322BDA0B4A00137F7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD630312BDA0B4A00137F7F /* ContentView.swift */; };
 		6BD630342BDA0B4C00137F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD630332BDA0B4C00137F7F /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* Begin PBXFileReference section */
 		6B51C7422C298E6100DBDDA2 /* zstack_hstack_vstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zstack_hstack_vstack.swift; sourceTree = "<group>"; };
 		6B60B2AF2BF2452200FF36DA /* textbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textbootcamp.swift; sourceTree = "<group>"; };
+		6BC942C32C2BDE3E0092CF6F /* paddingbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paddingbootcamp.swift; sourceTree = "<group>"; };
+		6BD527A22C2C42BE002D96E6 /* twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitter.swift; sourceTree = "<group>"; };
 		6BD6302C2BDA0B4A00137F7F /* basicswift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = basicswift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD6302F2BDA0B4A00137F7F /* basicswiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicswiftApp.swift; sourceTree = "<group>"; };
 		6BD630312BDA0B4A00137F7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				6BD75ABC2C244C0600B654BE /* customicon.swift */,
 				6B51C7422C298E6100DBDDA2 /* zstack_hstack_vstack.swift */,
 				6BD630362BDA0B4C00137F7F /* Preview Content */,
+				6BC942C32C2BDE3E0092CF6F /* paddingbootcamp.swift */,
+				6BD527A22C2C42BE002D96E6 /* twitter.swift */,
 			);
 			path = basicswift;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BC942C42C2BDE3E0092CF6F /* paddingbootcamp.swift in Sources */,
 				6BD630322BDA0B4A00137F7F /* ContentView.swift in Sources */,
 				6BD75AB72C234F8900B654BE /* color.swift in Sources */,
 				6BD75AB92C23E3F200B654BE /* framebootcamp.swift in Sources */,
@@ -285,6 +292,7 @@
 				6B51C7432C298E6100DBDDA2 /* zstack_hstack_vstack.swift in Sources */,
 				6BD75ABB2C24418F00B654BE /* backgroundandoverlay.swift in Sources */,
 				6BD630302BDA0B4A00137F7F /* basicswiftApp.swift in Sources */,
+				6BD527A32C2C42BE002D96E6 /* twitter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

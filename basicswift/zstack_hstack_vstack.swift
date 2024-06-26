@@ -12,9 +12,10 @@ struct zstack_hstack_vstack: View {
         VStack{
             Rectangle()
                 .fill(Color.blue)
-                .frame(width: 400,height: 200)
-            Spacer()
-            HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 10, content: {
+                .frame(width: 400,height: 100)
+                .background(Color.blue)
+            Spacer() 
+            HStack(alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 30, content: {
                 Image(systemName: "link")
                     .font(.system(size: 32))
                 Image(systemName: "book")
@@ -27,8 +28,9 @@ struct zstack_hstack_vstack: View {
                     .font(.system(size: 32))
             })
         }
+//        .background(Color.brown)
         Spacer()
-      
+        
     }
 }
 

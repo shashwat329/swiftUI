@@ -16,6 +16,7 @@ struct ContentView: View {
             Text("Hello, everyone")
         }
         .padding()
+        twitter()
     }
 }
 
