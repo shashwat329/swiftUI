@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6B51C7432C298E6100DBDDA2 /* zstack_hstack_vstack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B51C7422C298E6100DBDDA2 /* zstack_hstack_vstack.swift */; };
 		6B60B2B02BF2452200FF36DA /* textbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60B2AF2BF2452200FF36DA /* textbootcamp.swift */; };
+		6B6C18682C3C529400340D7C /* extractfunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C18672C3C529400340D7C /* extractfunc.swift */; };
+		6B6C186A2C3C5E9200340D7C /* subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6C18692C3C5E9200340D7C /* subview.swift */; };
 		6B920FA72C395EE40081DD27 /* safearea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B920FA62C395EE40081DD27 /* safearea.swift */; };
 		6B920FA92C3970F30081DD27 /* buttonbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B920FA82C3970F30081DD27 /* buttonbootcamp.swift */; };
 		6B92A3F92C2EC5C1009EF43E /* foreach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92A3F82C2EC5C1009EF43E /* foreach.swift */; };
@@ -49,6 +51,8 @@
 /* Begin PBXFileReference section */
 		6B51C7422C298E6100DBDDA2 /* zstack_hstack_vstack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zstack_hstack_vstack.swift; sourceTree = "<group>"; };
 		6B60B2AF2BF2452200FF36DA /* textbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textbootcamp.swift; sourceTree = "<group>"; };
+		6B6C18672C3C529400340D7C /* extractfunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extractfunc.swift; sourceTree = "<group>"; };
+		6B6C18692C3C5E9200340D7C /* subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subview.swift; sourceTree = "<group>"; };
 		6B920FA62C395EE40081DD27 /* safearea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safearea.swift; sourceTree = "<group>"; };
 		6B920FA82C3970F30081DD27 /* buttonbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonbootcamp.swift; sourceTree = "<group>"; };
 		6B92A3F82C2EC5C1009EF43E /* foreach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foreach.swift; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				6BECEE942C371E9B00522D55 /* gridbootcamp.swift */,
 				6B920FA62C395EE40081DD27 /* safearea.swift */,
 				6B920FA82C3970F30081DD27 /* buttonbootcamp.swift */,
+				6B6C18672C3C529400340D7C /* extractfunc.swift */,
+				6B6C18692C3C5E9200340D7C /* subview.swift */,
 			);
 			path = basicswift;
 			sourceTree = "<group>";
@@ -301,6 +307,7 @@
 				6BECEE952C371E9B00522D55 /* gridbootcamp.swift in Sources */,
 				6B920FA92C3970F30081DD27 /* buttonbootcamp.swift in Sources */,
 				6BCA83B42C2D297000F00917 /* init_enum_bootcamp.swift in Sources */,
+				6B6C18682C3C529400340D7C /* extractfunc.swift in Sources */,
 				6BC942C42C2BDE3E0092CF6F /* paddingbootcamp.swift in Sources */,
 				6BD630322BDA0B4A00137F7F /* ContentView.swift in Sources */,
 				6BD75AB72C234F8900B654BE /* color.swift in Sources */,
@@ -309,6 +316,7 @@
 				6BD75ABD2C244C0600B654BE /* customicon.swift in Sources */,
 				6B51C7432C298E6100DBDDA2 /* zstack_hstack_vstack.swift in Sources */,
 				6B92A3F92C2EC5C1009EF43E /* foreach.swift in Sources */,
+				6B6C186A2C3C5E9200340D7C /* subview.swift in Sources */,
 				6BD75ABB2C24418F00B654BE /* backgroundandoverlay.swift in Sources */,
 				6BD630302BDA0B4A00137F7F /* basicswiftApp.swift in Sources */,
 				6BD527A32C2C42BE002D96E6 /* twitter.swift in Sources */,
