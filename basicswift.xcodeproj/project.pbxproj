@@ -14,6 +14,7 @@
 		6B920FA72C395EE40081DD27 /* safearea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B920FA62C395EE40081DD27 /* safearea.swift */; };
 		6B920FA92C3970F30081DD27 /* buttonbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B920FA82C3970F30081DD27 /* buttonbootcamp.swift */; };
 		6B92A3F92C2EC5C1009EF43E /* foreach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92A3F82C2EC5C1009EF43E /* foreach.swift */; };
+		6BA04BC22C3DB70F00E4B1EF /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA04BC12C3DB70F00E4B1EF /* BindingView.swift */; };
 		6BC942C42C2BDE3E0092CF6F /* paddingbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC942C32C2BDE3E0092CF6F /* paddingbootcamp.swift */; };
 		6BCA83B42C2D297000F00917 /* init_enum_bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA83B32C2D296F00F00917 /* init_enum_bootcamp.swift */; };
 		6BD527A32C2C42BE002D96E6 /* twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD527A22C2C42BE002D96E6 /* twitter.swift */; };
@@ -56,6 +57,7 @@
 		6B920FA62C395EE40081DD27 /* safearea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safearea.swift; sourceTree = "<group>"; };
 		6B920FA82C3970F30081DD27 /* buttonbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonbootcamp.swift; sourceTree = "<group>"; };
 		6B92A3F82C2EC5C1009EF43E /* foreach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foreach.swift; sourceTree = "<group>"; };
+		6BA04BC12C3DB70F00E4B1EF /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		6BC942C32C2BDE3E0092CF6F /* paddingbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paddingbootcamp.swift; sourceTree = "<group>"; };
 		6BCA83B32C2D296F00F00917 /* init_enum_bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = init_enum_bootcamp.swift; sourceTree = "<group>"; };
 		6BD527A22C2C42BE002D96E6 /* twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitter.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				6B920FA82C3970F30081DD27 /* buttonbootcamp.swift */,
 				6B6C18672C3C529400340D7C /* extractfunc.swift */,
 				6B6C18692C3C5E9200340D7C /* subview.swift */,
+				6BA04BC12C3DB70F00E4B1EF /* BindingView.swift */,
 			);
 			path = basicswift;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				6BD630322BDA0B4A00137F7F /* ContentView.swift in Sources */,
 				6BD75AB72C234F8900B654BE /* color.swift in Sources */,
 				6BD75AB92C23E3F200B654BE /* framebootcamp.swift in Sources */,
+				6BA04BC22C3DB70F00E4B1EF /* BindingView.swift in Sources */,
 				6B60B2B02BF2452200FF36DA /* textbootcamp.swift in Sources */,
 				6BD75ABD2C244C0600B654BE /* customicon.swift in Sources */,
 				6B51C7432C298E6100DBDDA2 /* zstack_hstack_vstack.swift in Sources */,
