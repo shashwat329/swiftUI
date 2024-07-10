@@ -50,5 +50,5 @@ struct ButtonView: View {
 }
 
 #Preview {
-    ButtonView(backgroundColor: Color.green, title: "updated")
+    BindingView(backgroundColor: .green)
 }
