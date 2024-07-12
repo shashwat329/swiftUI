@@ -65,7 +65,7 @@ struct g3: View {
                         })
                     
                 }
-               x
+               
             }
             
         }
