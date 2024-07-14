@@ -8,8 +8,28 @@
 import SwiftUI
 
 struct tranisitionbootcamp: View {
+    @State var showView: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .bottom){
+            VStack{
+                Button("button") {
+                    withAnimation {
+                        showView.toggle()
+                    }
+                }
+                Spacer()
+               
+            }
+            if showView{
+                RoundedRectangle(cornerRadius: 20)
+                    .frame(height: UIScreen.main.bounds.height*0.5)
+                    .transition(.move(edge: .bottom) )
+                    .animation(.easeInOut,value: showView)
+            }
+                
+        }
+        .edgesIgnoringSafeArea(.bottom)
+        
     }
 }
 

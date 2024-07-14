@@ -18,6 +18,9 @@
 		6BA04BC22C3DB70F00E4B1EF /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA04BC12C3DB70F00E4B1EF /* BindingView.swift */; };
 		6BA04BC42C3EC46800E4B1EF /* ifElse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA04BC32C3EC46800E4B1EF /* ifElse.swift */; };
 		6BA04BCA2C3EDD0100E4B1EF /* g3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA04BC92C3EDD0100E4B1EF /* g3.swift */; };
+		6BBFC0D12C42945B0036261B /* jumpingball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFC0D02C42945B0036261B /* jumpingball.swift */; };
+		6BBFC0D32C42B1110036261B /* animationcurveandtiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFC0D22C42B1110036261B /* animationcurveandtiming.swift */; };
+		6BBFC0D52C42B9A20036261B /* tranisitionbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBFC0D42C42B9A20036261B /* tranisitionbootcamp.swift */; };
 		6BC942C42C2BDE3E0092CF6F /* paddingbootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC942C32C2BDE3E0092CF6F /* paddingbootcamp.swift */; };
 		6BCA83B42C2D297000F00917 /* init_enum_bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCA83B32C2D296F00F00917 /* init_enum_bootcamp.swift */; };
 		6BD527A32C2C42BE002D96E6 /* twitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD527A22C2C42BE002D96E6 /* twitter.swift */; };
@@ -64,6 +67,9 @@
 		6BA04BC12C3DB70F00E4B1EF /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
 		6BA04BC32C3EC46800E4B1EF /* ifElse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ifElse.swift; sourceTree = "<group>"; };
 		6BA04BC92C3EDD0100E4B1EF /* g3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = g3.swift; sourceTree = "<group>"; };
+		6BBFC0D02C42945B0036261B /* jumpingball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jumpingball.swift; sourceTree = "<group>"; };
+		6BBFC0D22C42B1110036261B /* animationcurveandtiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animationcurveandtiming.swift; sourceTree = "<group>"; };
+		6BBFC0D42C42B9A20036261B /* tranisitionbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tranisitionbootcamp.swift; sourceTree = "<group>"; };
 		6BC942C32C2BDE3E0092CF6F /* paddingbootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paddingbootcamp.swift; sourceTree = "<group>"; };
 		6BCA83B32C2D296F00F00917 /* init_enum_bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = init_enum_bootcamp.swift; sourceTree = "<group>"; };
 		6BD527A22C2C42BE002D96E6 /* twitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitter.swift; sourceTree = "<group>"; };
@@ -157,6 +163,9 @@
 				6BA04BC32C3EC46800E4B1EF /* ifElse.swift */,
 				6BA04BC92C3EDD0100E4B1EF /* g3.swift */,
 				6B56F7092C419E1C00A1DD61 /* animationbootcamp.swift */,
+				6BBFC0D02C42945B0036261B /* jumpingball.swift */,
+				6BBFC0D22C42B1110036261B /* animationcurveandtiming.swift */,
+				6BBFC0D42C42B9A20036261B /* tranisitionbootcamp.swift */,
 			);
 			path = basicswift;
 			sourceTree = "<group>";
@@ -319,7 +328,9 @@
 				6BECEE952C371E9B00522D55 /* gridbootcamp.swift in Sources */,
 				6B920FA92C3970F30081DD27 /* buttonbootcamp.swift in Sources */,
 				6BCA83B42C2D297000F00917 /* init_enum_bootcamp.swift in Sources */,
+				6BBFC0D12C42945B0036261B /* jumpingball.swift in Sources */,
 				6B6C18682C3C529400340D7C /* extractfunc.swift in Sources */,
+				6BBFC0D52C42B9A20036261B /* tranisitionbootcamp.swift in Sources */,
 				6BC942C42C2BDE3E0092CF6F /* paddingbootcamp.swift in Sources */,
 				6BD630322BDA0B4A00137F7F /* ContentView.swift in Sources */,
 				6BD75AB72C234F8900B654BE /* color.swift in Sources */,
@@ -327,6 +338,7 @@
 				6BA04BC22C3DB70F00E4B1EF /* BindingView.swift in Sources */,
 				6B60B2B02BF2452200FF36DA /* textbootcamp.swift in Sources */,
 				6BD75ABD2C244C0600B654BE /* customicon.swift in Sources */,
+				6BBFC0D32C42B1110036261B /* animationcurveandtiming.swift in Sources */,
 				6B51C7432C298E6100DBDDA2 /* zstack_hstack_vstack.swift in Sources */,
 				6BA04BC42C3EC46800E4B1EF /* ifElse.swift in Sources */,
 				6B92A3F92C2EC5C1009EF43E /* foreach.swift in Sources */,

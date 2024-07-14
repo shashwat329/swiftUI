@@ -14,12 +14,14 @@ struct animationbootcamp: View {
         ZStack{
             //background
             
-            //content
+//            content
             VStack{
                 Button("button"){
                     withAnimation(
                         Animation
-                            .default.repeatForever(autoreverses: true)
+                        
+                            .default
+                            .repeatCount(5,autoreverses: true)
                     ){
                         isanimated.toggle()
                     }
@@ -32,7 +34,10 @@ struct animationbootcamp: View {
                     .offset(y:isanimated ? 250: 0)
                 Spacer()
                 
+                
             }
+           
+           
         }
     }
 }
