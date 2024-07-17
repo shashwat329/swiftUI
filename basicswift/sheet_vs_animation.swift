@@ -13,10 +13,12 @@ struct sheetView1: View {
         ZStack{
             Color.blue.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack{
+
+                    
                 Button(action: {
                     changeView.toggle()
                 }, label: {
-                    Text("click me")
+                    Text("click this")
                         .font(.headline)
                         .padding()
                         .background(Color.white)
@@ -25,9 +27,13 @@ struct sheetView1: View {
 //                .sheet(isPresented: $changeView, content: {
 //                    nextpageView()
 //                                    })
-                .fullScreenCover(isPresented: $changeView, content: {
-                    nextpageView1()
-                                    })
+//                .fullScreenCover(isPresented: $changeView, content: {
+//                    nextpageView1()
+//                })
+                if changeView {
+                    nextpageView()
+                       
+                }
             }
         }
     }
@@ -37,7 +43,7 @@ struct nextpageView1: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
         ZStack(alignment: .topLeading){
-            Color.yellow.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+            Color.orange.edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
             VStack{
                 Button(action: {
                     presentationMode.wrappedValue.dismiss()
@@ -56,5 +62,5 @@ struct nextpageView1: View {
 
 #Preview {
 sheetView()
-//    nextpageView()
+
 }
